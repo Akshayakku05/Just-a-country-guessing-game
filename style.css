@@ -1,1 +1,142 @@
-
+ body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #eef2f3;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    #clue {
+      font-style: italic;
+      margin: 10px 0 20px;
+      color: #555;
+      min-height: 50px;
+    }
+    #word {
+      font-size: 2rem;
+      letter-spacing: 10px;
+      margin-bottom: 30px;
+    }
+    #inputArea {
+      margin-bottom: 30px;
+    }
+    input[type="text"] {
+      font-size: 1.5rem;
+      width: 40px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    button {
+      font-size: 1.2rem;
+      padding: 5px 15px;
+      margin-left: 10px;
+      cursor: pointer;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #message {
+      font-size: 1.2rem;
+      margin-top: 15px;
+      height: 30px;
+      color: #d9534f;
+    }
+    #wrongLetters {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #a94442;
+    }
+    #stickman {
+      margin: 0 auto 30px;
+      width: 150px;
+      height: 200px;
+      position: relative;
+    }
+    .part {
+      position: absolute;
+      background: black;
+    }
+    #stand {
+      width: 10px;
+      height: 150px;
+      left: 20px;
+      bottom: 0;
+      background: #444;
+    }
+    #topbar {
+      width: 80px;
+      height: 10px;
+      left: 20px;
+      top: 0;
+      background: #444;
+    }
+    #rope {
+      width: 5px;
+      height: 20px;
+      left: 100px;
+      top: 10px;
+      background: #444;
+    }
+    #head {
+      width: 40px;
+      height: 40px;
+      border: 4px solid black;
+      border-radius: 50%;
+      left: 80px;
+      top: 30px;
+      background: transparent;
+      display: none;
+    }
+    #body {
+      width: 6px;
+      height: 70px;
+      left: 97px;
+      top: 70px;
+      background: black;
+      display: none;
+    }
+    #leftArm {
+      width: 50px;
+      height: 6px;
+      left: 50px;
+      top: 90px;
+      background: black;
+      transform-origin: right;
+      transform: rotate(45deg);
+      display: none;
+    }
+    #rightArm {
+      width: 50px;
+      height: 6px;
+      left: 98px;
+      top: 90px;
+      background: black;
+      transform-origin: left;
+      transform: rotate(-45deg);
+      display: none;
+    }
+    #leftLeg {
+      width: 50px;
+      height: 6px;
+      left: 50px;
+      top: 135px;
+      background: black;
+      transform-origin: right;
+      transform: rotate(-45deg);
+      display: none;
+    }
+    #rightLeg {
+      width: 50px;
+      height: 6px;
+      left: 98px;
+      top: 135px;
+      background: black;
+      transform-origin: left;
+      transform: rotate(45deg);
+      display: none;
